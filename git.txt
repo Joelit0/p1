@@ -1,0 +1,68 @@
+GIT CLONE
+
+Descripción: Comando que se utiliza para clonar un repositorio, recibe como argumento la url del repositorio o la SSH Key.
+
+Uso: git clone git@github.com:Joelit0/p1.git
+
+Logs: Cloning into 'p1'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 5 (from 1)
+Receiving objects: 100% (6/6), done.
+
+
+---------------------------------------------------------------------------------------------------
+GIT STATUS
+
+Descripción: Este comando te muestra el estado del repositorio, indicando si hay archivos que no están rastreados, cambios pendientes de commitear, o si todo está al día con el repositorio remoto.
+
+Uso: git status
+
+Logs: On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+---------------------------------------------------------------------------------------------------
+GIT ADD
+
+Descripción: Este comando agrega archivos al área de archivos por commitear, preparándolos para ser incluidos en el próximo commit.
+
+Uso: git add .
+Logs: No arroja nada.
+
+---------------------------------------------------------------------------------------------------
+GIT COMMIT
+
+Descripción: Permite guardar los cambios preparados en el historial de Git, con un mensaje que describa lo que se modificó. Básicamente crea el commit.
+
+
+Uso: git commit -m "Add git.txt file"
+Logs:  [main 4f57c55] Add git.txt file
+ 1 file changed, 33 insertions(+)
+ create mode 100644 git.txt
+---------------------------------------------------------------------------------------------------
+GIT PUSH
+
+Descripción: Sube los commits locales al repositorio remoto, sincronizando los cambios. En este caso especificamos el origin y la rama a subir que será main.
+
+Uso: git push origin main
+Logs: Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 647 bytes | 323.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:Joelit0/p1.git
+   07720b5..4f57c55  main -> main
+
+---------------------------------------------------------------------------------------------------
+GIT CHECKOUT
+
+Descripción: Sirve para cambiar entre ramas, con la flag -b somos capaces de crear una nueva rama en el repositorio y moverse hacia ella al mismo tiempo. En este caso creamos una rama llamada develop como rama de desarrollo.
+
+Uso: git checkout -b develop
+Logs: Switched to a new branch 'develop'
