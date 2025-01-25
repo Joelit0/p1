@@ -1,24 +1,41 @@
-# Práctica 1
+# Práctica 1: Preparación del Entorno de Desarrollo y Uso de Git
 
-Un repositorio para empezar a usar [git](https://git-scm.com/) y Github
+Este repositorio contiene la solución a la **Práctica 1** del curso, que tiene como objetivo preparar el entorno de desarrollo del alumno y practicar el uso de Git y GitHub.
 
-## ¿Como probar en la nube?
+---
 
-[Github-Codespaces](https://github.com/features/codespaces)
+## Contenidos del Repositorio
 
-## Comandos git básicos
+### Archivos y Documentos
 
-```
-git clone https://github.com/gitt-3-pat/p1
-git status
-git add .
-git commit -m "TU MENSAJE"
-git push
+- **`git.txt`**: Archivo que explica los comandos básicos de Git utilizados durante la práctica. Contiene descripciones, usos y ejemplos de logs.
 
-git checkout -b feature/1
-git checkout main
-```
+- **`entorno.pdf`**: Documento que incluye evidencias de la instalación y configuración del entorno de desarrollo (Java 17, Maven, IntelliJ IDEA).
 
-## ¿Cómo escribir un README.md con formato?
+---
 
-[Github Markdown](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+## Pasos Realizados
+
+### Uso de Git y GitHub
+1. Se hizo un fork del repositorio inicial desde [GitHub](https://github.com/gitt-3-pat/p1).
+2. Se practicaron los comandos básicos de Git:
+   - `git clone`
+   - `git status`
+   - `git add`
+   - `git commit`
+   - `git push`
+   - `git checkout`
+3. Se documentaron todos los comandos en el archivo [`git.txt`](./git.txt).
+
+### Configuración del Entorno de Desarrollo
+1. Instalación de **Java 17**:
+   - Verificado con `java --version`.
+2. Instalación de **Maven**:
+   - Verificado con `mvn --version`.
+3. Configuración y prueba del IDE **IntelliJ y Visual Studio Code**.
+4. Evidencias documentadas en [`entorno.txt`](./entorno.txt).
+
+---
+
+### Autor
+- **Joel Alayon**  
