@@ -25,7 +25,7 @@ Este repositorio contiene la solución a la **Práctica 1** del curso, que tiene
    - `git commit`
    - `git push`
    - `git checkout`
-3. Se documentaron todos los comandos en el archivo [`git.txt`](./git.txt).
+3. Se documentaron todos los comandos en el archivo [`git.txt`](git.txt).
 
 ### Configuración del Entorno de Desarrollo
 1. Instalación de **Java 17**:
@@ -33,7 +33,7 @@ Este repositorio contiene la solución a la **Práctica 1** del curso, que tiene
 2. Instalación de **Maven**:
    - Verificado con `mvn --version`.
 3. Configuración y prueba del IDE **IntelliJ y Visual Studio Code**.
-4. Evidencias documentadas en [`entorno.txt`](./entorno.txt).
+4. Evidencias documentadas en [`entorno.pdf`](entorno.pdf).
 
 ---
 
